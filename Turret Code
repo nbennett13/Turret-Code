@@ -1,0 +1,25 @@
+public class Turret extends subsystem
+{
+  private final CANTalon turretTalon; //motor controller for turret
+
+public Turret()
+  {
+   super(Turret
+  }
+
+protected void initialize
+  {
+    //code that for initilizing turret goes here
+  }
+
+protected void execute() 
+   {
+     //code to be executed
+   }
+
+    // Make this return true when this Command no longer needs to run execute()
+    protected boolean isFinished() 
+    {
+        return false;
+    }
+}
